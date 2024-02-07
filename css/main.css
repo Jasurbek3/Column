@@ -1,0 +1,116 @@
+@import url(./fonts.css);
+:root{
+    --yellow: #E28625;
+    --Blue: #006971;
+    --Dark: #004140;
+    --bc: #F2F2F2;
+    --Big-Shoulder: "Big-Shoulder";
+    --LexendDeca: "LexendDeca";
+}
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.d-flx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background: var(--bc);
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+.container {
+    width: 920px;
+    height: 500px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.parts{
+    display: flex;
+    align-items: center;
+}
+.part{
+    width: 307px;
+    height: 500px;
+    padding: 48px;
+}
+.part-title{
+    color: var(--bc);
+    font-family: var(--Big-Shoulder);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 35px;
+}
+.part-text{
+    color: var(--bc);
+    font-family: var(--LexendDeca);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 25px;
+    padding-bottom: 83px;
+}
+.part:nth-child(1){
+    background: var(--yellow);
+    .btn{
+        color: var(--yellow);
+    }
+    .btn:active{
+        color: var(--bc);
+    }
+}
+.part:nth-child(2){
+    background: var(--Blue);
+    .btn{
+        color: var(--Blue);
+    }
+    .btn:active{
+        color: var(--bc);
+    }   
+}
+.part:nth-child(3){
+    background: var(--Dark);
+    .btn{
+        color: var(--Dark);
+    }
+    .btn:active{
+        color: var(--bc);
+    }
+}
+.part-btn{
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    background: var(--bc);
+    transition: 0.3s;
+    border: 2px solid var(--bc);
+    transform: 0.1s;
+}
+.part-btn:active {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid var(--bc);
+}
+.btn{
+    color: var(--bc);
+    font-family: var(--LexendDeca);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
