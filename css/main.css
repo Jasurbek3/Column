@@ -90,8 +90,7 @@ a {
         color: var(--bc);
     }
 }
-.part-btn{
-    
+.part-btn{ 
     border-radius: 25px;
     background: var(--bc);
     transition: 0.3s;
