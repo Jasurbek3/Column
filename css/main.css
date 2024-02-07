@@ -90,7 +90,9 @@ a {
         color: var(--bc);
     }
 }
-.part-btn{ 
+.part-btn{
+    width: 146px;
+    height: 48px;
     border-radius: 25px;
     background: var(--bc);
     transition: 0.3s;
@@ -103,8 +105,6 @@ a {
     border: 2px solid var(--bc);
 }
 .btn{
-    width: 146px;
-    height: 48px;
     font-family: var(--LexendDeca);
     font-size: 15px;
     font-weight: 400;
